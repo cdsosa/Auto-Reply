@@ -4,7 +4,7 @@
 $respond_subject = "Thank you for your inquiry!";
 
 //Change from address
-$headers = 'From: dtermine@iogproducts.com' . "\r\n" .
+$headers = 'From: someemail@iogproducts.com' . "\r\n" .
     'Reply-To: ' . $email . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
